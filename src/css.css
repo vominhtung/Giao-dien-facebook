@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Verdana;
+    background-color: white;
+    color: azure;
+}
+#navigation ul li a{
+    color: chartreuse;
+    text-decoration: none;
+    display: block;
+}
+#navigation ul{
+    background-color:  #3a3b3c;
+    color: white;
+    text-align: right;
+    padding-right: 100px;
+    position: relative;
+    height: 55px;
+    width: 100%;
+    line-height: 50px;
+}
+#navigation ul li {
+    color: white;
+    display: inline-table;
+    /*width: 120px;*/
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+}
+#navigation ul li a:hover {
+    background-color: #FFFFFF49;
+}
+/*tin nhan*/
+#navigation ul li .mess {
+    visibility: hidden;
+    position: absolute;
+    background-color: transparent;
+    right: 2px;
+    width: 500px;
+    justify-content: center;
+}
+#navigation ul li .mess li {
+    /*position: static;*/
+    /*background-color: #2b2b2b;*/
+    background-color: forestgreen;
+    left: 30px;
+    width: 60%;
+    height: 100%;
+
+}
+#navigation ul li:hover .mess {
+    visibility: visible;
+}
+/*tai khoan*/
+#navigation ul li .account {
+    visibility: hidden;
+    position: absolute;
+    background-color: transparent;
+    right: 0;
+    width: 500px;
+}
+
+#navigation ul li .account li {
+    /*background-color: #FFFFFF49;*/
+    background-color: forestgreen;
+    width: 60%;
+    height: 100%;
+}
+
+#navigation ul li:hover .account {
+    visibility: visible;
+}
+
+/*thong bao*/
+#navigation ul li .notification {
+    visibility: hidden;
+    position: absolute;
+    background-color: transparent;
+    right: 10px;
+    width: 500px;
+}
+
+#navigation ul li .notification li {
+    background-color: red;
+    width: 60%;
+    height: 100%;
+}
+#navigation ul li:hover .notification {
+    visibility: visible;
+}
+/**/
+#navigation ul .right {
+    float: right;
+    margin-right: 100%;
+    font-size: 100px;
+}
+
+#navigation ul .left {
+    float: left;
+    height: 40px;
+    line-height: 45px;
+    font-size: 150%;
+
+}
+
+#navigation ul .top1{
+    display: inline-table;
+    position: absolute;
+    left:10%;
+    /*border: 1px solid white;*/
+    width: 25%;
+    height: 45px;
+    line-height: 45px;
+}
+
+#navigation ul li .top, #navigation ul li .mis {
+    float: left;
+
+}
+
+#navigation ul .top1 .mis {
+    width: 80%;
+    border: 1px solid #FFFFFF49;
+    border-radius: 20px;
+    background-color: #3a3b3c;
+    margin: 0;
+    color: white;
+    text-align: left;
+    text-indent: 10%;
+    height: 43px;
+    font-size: 15px;
+
+}
+
+#navigation ul li .top {
+    position: absolute;
+    left: 10px;
+}
+
+.iconMess, .iconNotification, .iconAccount {
+    border: 6px solid #FFFFFF49;
+    background-color: #3a3b3c;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+
+}
+#mid2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 25%;
+    height: 100vh;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#mid2 ul{
+    background-color: #242526;
+    width: 100%;
+    height: 5%;
+    /*border: 1px solid white;*/
+}
+#mid2 ul li  {
+    text-align: left;
+    line-height: 50px;
+    /*margin-left: 30px;*/
+    list-style: none;
+    color: whitesmoke;
+    text-indent: 10px;
+}
+#mid2 ul li a {
+    /*position: relative;*/
+    text-decoration: none;
+    margin-left: 10px;
+    color: white;
+}
+
+#mid2 ul li:hover {
+    background-color: #FFFFFF49;
+}
+
